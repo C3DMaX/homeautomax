@@ -9,11 +9,9 @@ case ${option} in
 			echo "Setting thermostat to $2"
 			./eq3/eq3.exp mac temp tempc
 			;;
-	
-	*)
-	
-			echo "something went wrong"
-	
-esac
 
-	
+	*)
+
+			echo "Max thermostat control CLI"
+
+esac
