@@ -7,8 +7,12 @@ case ${option} in
 
 	-temp)
 			echo "Setting thermostat to $2"
-			../eq3/eq3.exp mac temp tempc
+			../eq3/eq3.exp 00:1A:22:07:05:AC temp $2
 			;;
+
+	-status)
+			echo "Fetching current thermostat settings..."
+			..eq3/eq3.exp 00:1A:22:07:05:AC sync
 
 	*)
 
