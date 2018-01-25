@@ -12,7 +12,7 @@ case ${option} in
 
 	-status)
 			echo "Fetching current thermostat settings..."
-			..eq3/eq3.exp 00:1A:22:07:05:AC sync
+			../eq3/eq3.exp 00:1A:22:07:05:AC sync
 			;;
 
 	*)
