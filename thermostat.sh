@@ -7,7 +7,7 @@ case ${option} in
 
 	-temp)
 			echo "Setting thermostat to $2"
-			./eq3/eq3.exp mac temp tempc
+			../eq3/eq3.exp mac temp tempc
 			;;
 
 	*)
