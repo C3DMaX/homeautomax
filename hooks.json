@@ -3,6 +3,6 @@
     "id": "underglow",
     "execute-command": "./underglow.sh -pmax",
 	 "response-message": "blabla....",
-    "command-working-directory": "projects/homeautomax/"
+    "command-working-directory": "home/pi/projects/homeautomax/"
   }
 ]
