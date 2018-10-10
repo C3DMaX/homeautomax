@@ -1,18 +1,10 @@
 [
   {
     "id": "underglow",
-    "execute-command": "./underglow.sh",
+    "execute-command": "./underglow.sh -pmax",
 	"response-message": "underglow....",
     "command-working-directory": "/home/pi/projects/homeautomax/"
-	"pass-arguments-to-command":
-	[
-		{
-          "source": "url",
-          "name": "value"
-        }
-	]
-  }
-],
+]
 [
   {
     "id": "thermostat",
