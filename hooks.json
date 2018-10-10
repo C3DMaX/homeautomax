@@ -5,10 +5,4 @@
 	"response-message": "underglow....",
     "command-working-directory": "/home/pi/projects/homeautomax/"
   }
-  {
-    "id": "thermostat",
-    "execute-command": "./thermostat.sh",
-	"response-message": "thermostat....",
-    "command-working-directory": "/home/pi/projects/homeautomax/"
-  }
 ]
