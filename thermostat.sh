@@ -1,3 +1,4 @@
+#!/bin/sh
 option="${1}"
 tempc="${2}"
 
