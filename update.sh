@@ -1,0 +1,1 @@
+git pull https://github.com/C3DMaX/homeautomax
