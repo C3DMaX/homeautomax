@@ -1,7 +1,7 @@
 [
   {
     "id": "underglow",
-    "execute-command": "./underglow.sh -pmax",
+    "execute-command": "./underglow.sh",
 	"response-message": "blabla....",
     "command-working-directory": "/home/pi/projects/homeautomax/"
   }
