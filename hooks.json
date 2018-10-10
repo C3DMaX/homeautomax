@@ -1,0 +1,7 @@
+[
+  {
+    "id": "underglow-max",
+    "execute-command": "/projects/homeautomax/underglow.sh -pmax",
+    "command-working-directory": "/"
+  }
+]
