@@ -4,6 +4,6 @@
     "execute-command": "./underglow.sh",
 	  "response-message": "underglow....",
     "command-working-directory": "/home/pi/projects/homeautomax/",
-	 "pass-arguments-to-command": { "source": "string", "name": "argumentvalue" }
+	 "pass-arguments-to-command": [{ "source": "string", "name": "argumentvalue" }]
   }
 ]
