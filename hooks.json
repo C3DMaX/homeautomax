@@ -7,8 +7,8 @@
 	 "pass-arguments-to-command":
     [
       {
-        "source": "url",
-        "name": "value"
+        "source": "payload",
+        "name": "head_commit.id"
       }
     ]
   }
