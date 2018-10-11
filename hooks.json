@@ -6,8 +6,7 @@
     "command-working-directory": "/home/pi/projects/homeautomax/",
 	 "pass-arguments-to-command": [{ "source": "url", "name": "param" }]
   }
-]
-[
+  
   {
     "id": "thermostat",
     "execute-command": "./thermostat.sh",
