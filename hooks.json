@@ -2,14 +2,16 @@
   {
     "id": "underglow",
     "execute-command": "./underglow.sh",
-	"response-message": "underglow....",
-    "command-working-directory": "/home/pi/projects/homeautomax/"
-	 "pass-arguments-to-command":
-    [
-      {
-        "source": "payload",
-        "name": "head_commit.id"
-      }
-    ]
+	  "response-message": "underglow....",
+    "command-working-directory": "/home/pi/projects/homeautomax/",
+	 "pass-arguments-to-command": [{ "source": "url", "name": "param" }]
+  }
+  ,
+  {
+    "id": "thermostat",
+    "execute-command": "./thermostat.sh",
+	  "response-message": "thermostat....",
+    "command-working-directory": "/home/pi/projects/homeautomax/",
+	 "pass-arguments-to-command": [{ "source": "url", "name": "param" }]
   }
 ]
