@@ -3,7 +3,7 @@
     "id": "thermostat",
     "execute-command": "./thermostat.sh",
 	  "response-message": "thermostat....",
-    "command-working-directory": "/home/pi/projects/homeautomax/",
+    "command-working-directory": "/home/pi/homeautomax/",
 	 "pass-arguments-to-command": [{ "source": "url", "name": "param" }]
   }
 ]
